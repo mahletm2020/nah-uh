@@ -1,0 +1,6 @@
+npm init -y
+npm i express jsonwebtoken dotenv
+npm i --save-dev npdemon
+npm i --save-dev prisma typescript ts-node @types/node
+then create tsconfig file  and copypaste it
+npx prisma init --datasource-provider postgresql
